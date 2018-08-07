@@ -1,0 +1,32 @@
+.dashboard {
+    position: relative;
+    padding: 40px 20px;
+}
+
+.dashboard .buttons {
+    text-align: right;
+}
+
+.dashboard .buttons button {
+    margin: 0 0 0 10px;
+}
+
+.edit > div {
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.edit.editable .ant-card-bordered {
+    border: 1px dashed #999;
+}
+
+.ant-card {
+    height: 100%;
+
+}
+
+.ant-card .ant-card-body {
+    height: calc(100% - 47px);
+    padding: 24px;
+    overflow: auto;
+}

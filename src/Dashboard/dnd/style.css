@@ -1,0 +1,34 @@
+.handle {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    right: 257px;
+    height: 48px;
+    cursor: move;
+    z-index: 1;
+}
+
+.settings {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 1;
+}
+
+.settings label {
+    float: left;
+    line-height: 22px;
+}
+
+.settings .ant-select, .ant-input-number {
+    float: left;
+    width: 75px;
+    margin-right: 10px;
+}
+
+.settings .anticon {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #f04134;
+}
+
